@@ -11,98 +11,101 @@
 const nuevaString = null;
 
 // Crea una variable numérica, puede ser cualquier número:
-const nuevoNum = null;
+const nuevoNum = 1;
 
 // Crea una variable booleana:
-const nuevoBool = null;
+const nuevoBool = true;
 
 // Resuelve el siguiente problema matemático:
-const nuevaResta = 10 - 5 === null;
+const nuevaResta = 10 - 5 === 5;
 
 // Resuelve el siguiente problema matemático:
-const nuevaMultiplicacion = 10 * 4 === null ;
+const nuevaMultiplicacion = 10 * 4 === 24 ;
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === null;
+const nuevoModulo = 21 % 5 === 1;
 
 // ----------------------------------
 
 function devolverString(str) {
   // "Return" la string provista: str
-  // Tu código:
+  // Tu código:return str;
 }
 
 function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
-  // Tu código:
+  // Tu código: var suma=;
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
-  // Tu código:
+  // Tu código: var resta = x-y;return resta;
+
+
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
-  // Tu código:
+  // Tu código: var multiplica= x * y; return multiplica;
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
-  // Tu código:
+  // Tu código: var divide = x/y; return divide;
 }
 
 function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
-  // Tu código:
+  // Tu código: if ( x==y){ return true;} else { return false; } 
 }
 
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
-  // Tu código:
+  // Tu código: if ((str1.length)==(str2.lenght)) {return true;} else {return flase}
 }
 
 function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
-  // Tu código:
+  // Tu código: if(num<90) {return true;} else {return flase}
 }
 
 function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
-  // Tu código:
+  // Tu código:  if (num>50){return true;} else {return false}
 }
 
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
-  // Tu código:
+  // Tu código: var obtenerResto= x % y;{return true;} else {return false}
+}
 }
 
 function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
-  // Tu código:
+  // Tu código: if (num% 2==0) {return true;} else {return false}
 }
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
-  // Tu código:
+ // Tu código:  if (num% 2==0)cout << "el numero es par "; return true } else{ cout <<"el numero es impar"; return false;
 }
 
 function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
-  // Tu código:
+  // Tu código: math.sqrt (9); // 3
 }
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
-  // Tu código:
+  // Tu código: var elevado = 2 ** 2
 }
 
 function elevar(num, exponent) {
@@ -112,13 +115,13 @@ function elevar(num, exponent) {
 
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
-  // Tu código:
+  // Tu código: return Math.round (num)
 }
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
-  // Tu código:
-}
+  // Tu código: return Math.ceil (num);
+} console.log )redondearNumero (2.4)); console.log (redondearHaciaarriba(2.1));
 
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
@@ -153,7 +156,7 @@ function obtenerSaludo(nombre) {
 function deEuroAdolar(euro) {
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
-  //Escribe tu código aquí
+  //Escribe tu código aquí let resultado=euro * 1.2; conosole.log (resultado); deEuroAdolar(20)  
 }
 
 // ---------- Puntos extra ----------
